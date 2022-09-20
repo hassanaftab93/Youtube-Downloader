@@ -35,14 +35,39 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
       📑 Steps
     </h2>
   </summary>
+  Clone this Repo
 
-  Step 1
   ```bash
-    commands / code
+  git clone https://github.com/hassanaftab93/YOUTUBE-DOWNLOADER.git
   ```
-  Step 2
+
+  Create a Virtual Environment for this Project
+
   ```bash
-    commands / code
+  python -m venv venv
+  ```
+
+  Activate Virtual Environment for this Project
+
+  Windows:
+  ```bash
+  source venv/Scripts/activate
+  ```
+  Linux:
+  ```bash
+  source ./venv/bin/activate
+  ```
+
+  Install the Required Libraries
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+  Run the File
+
+  ```bash
+    sh yt.sh
   ```
 </details>
 
