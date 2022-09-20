@@ -24,7 +24,7 @@ if link!="":
     print("\n\nVideo: Downloading...\n\n")
 
     yd.download(DOWNLOAD_FOLDER)
-    sleep(2000)
+    sleep(5)
     print("\n\nVideo: Downloaded\n\n")
 
 elif link=="":
