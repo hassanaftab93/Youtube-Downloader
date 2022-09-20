@@ -1,5 +1,5 @@
 
-# Project Name
+# Youtube Video Downloader
 
 <!-- --- DEPLOYMENT STATUS CODE ---
 
@@ -17,18 +17,16 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
 </details>
 -->
 <!---------------------------------------- SECTION DIVIDER ---------------------------------------->
-<!--
+
 <details>
   <summary>
     <h2>
-      🛠 SubTopic: What to Explain / Dry Runs etc.
+      🛠 Purpose
     </h2>
   </summary>
-
-  - Subtopic Detail 1
-  - Subtopic Detail 2
+  This Shell script uses a python library to download a youtube video from the given URL
 </details>
--->
+
 <!---------------------------------------- SECTION DIVIDER ---------------------------------------->
 <details>
   <summary>
