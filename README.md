@@ -17,6 +17,7 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
 </details>
 -->
 <!---------------------------------------- SECTION DIVIDER ---------------------------------------->
+<!--
 <details>
   <summary>
     <h2>
@@ -27,7 +28,7 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
   - Subtopic Detail 1
   - Subtopic Detail 2
 </details>
-
+-->
 <!---------------------------------------- SECTION DIVIDER ---------------------------------------->
 <details>
   <summary>
