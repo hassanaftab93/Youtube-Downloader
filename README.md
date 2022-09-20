@@ -64,7 +64,14 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
   pip install -r requirements.txt
   ```
 
-  Run the File
+  Update the PyTube package to the latest release
+
+  ```bash
+  python -m pip install --upgrade pytube
+  python3 -m pip install git+https://github.com/pytube/pytube
+  ```
+
+  Run the File 'yt.sh'
 
   ```bash
     sh yt.sh
