@@ -5,8 +5,7 @@ from pytube import YouTube
 from sys import argv
 import os
 
-#link = argv[1]
-link = 'http://www.youtube.com/watch?v=3HFBR0UQPes'
+link = argv[1]
 
 if os.name == "nt":
     DOWNLOAD_FOLDER = f"{os.getenv('USERPROFILE')}\\Downloads"
