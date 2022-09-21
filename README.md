@@ -51,7 +51,13 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
   ```bash
   git clone https://github.com/hassanaftab93/Youtube-Downloader.git
   ```
-
+  
+  'cd' to the Project directory
+  
+  ```bash
+  cd /Path/To/Project
+  ```
+  
   Create a Virtual Environment for this Project
 
   ```bash
@@ -87,6 +93,11 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
   ```python
     python download.py
   ```
+  
+  Paste the YouTube link into the script and that's all :)
+  
+  Now, you just wait for the Visual confirmation from the script and you will find your Video in your Downloads folder
+  
 </details>
 
 <!---------------------------------------- SECTION DIVIDER ---------------------------------------->
