@@ -38,10 +38,10 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
       📑 Steps
     </h2>
   </summary>
-  Clone this Repo
+  Clone this Repo / Download the latest release
 
   ```bash
-  git clone https://github.com/hassanaftab93/YOUTUBE-DOWNLOADER.git
+  git clone https://github.com/hassanaftab93/Youtube-Downloader.git
   ```
 
   Create a Virtual Environment for this Project
@@ -56,7 +56,7 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
   ```bash
   source venv/Scripts/activate
   ```
-  Linux:
+  Linux/MacOS:
   ```bash
   source ./venv/bin/activate
   ```
@@ -74,10 +74,10 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
   python3 -m pip install git+https://github.com/pytube/pytube
   ```
 
-  Run the File 'yt.sh'
+  Run the File 'download.py'
 
-  ```bash
-    sh yt.sh
+  ```python
+    python download.py
   ```
 </details>
 
