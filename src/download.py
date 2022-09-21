@@ -35,11 +35,11 @@ if link!="":
     print("\nVideo Views: ",getViews(yt))
 
     if os.name == "nt":
-        DOWNLOAD_FOLDER = f"{os.getenv('USERPROFILE')}\\Downloads"
+        path = f"{os.getenv('USERPROFILE')}\\Downloads"
     else:  # PORT: For unix systems
-        DOWNLOAD_FOLDER = f"{os.getenv('HOME')}/Downloads"
+        path = f"{os.getenv('HOME')}/Downloads"
 
-    downloadVideo(yt,link,DOWNLOAD_FOLDER)
+    downloadVideo(yt,link,path)
 
 else:
     exit
