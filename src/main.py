@@ -6,7 +6,9 @@ import functions as dlObject
 from sys import argv
 import os
 
-link = argv[1]
+print("\nYoutube Downloader\n")
+link=str(input("Please Enter a Valid Youtube Video Link or Press CTRL+C to Exit: "))
+
 yt = YouTube(link) # we will pass this object into function -> functions.py
 
 print("\nVideo Title: ",dlObject.getTitle(yt))
