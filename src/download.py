@@ -28,8 +28,8 @@ if link!="":
     yd.download(DOWNLOAD_FOLDER)
     sleep(5)
 
-    print("\n\nVideo: Downloaded\n\n")
-    sleep(5)
+    print("\n\nVideo: Download Complete\n\n")
+    sleep(20)
 
 elif link=="":
     os.system("sh ../yt.sh")
