@@ -41,7 +41,9 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
   Install the latest version of Python:
   <br>
   <br>
+  
   [Python | Download Latest Version](https://www.python.org/downloads/)
+  
   <br>
   <br>
   Clone this Repo / Download the latest release
