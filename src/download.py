@@ -2,7 +2,7 @@
 # This script takes a link as an input and outputs the downloaded file into the specified folder
 
 from time import sleep
-from pytube import YouTube
+import pytube
 from sys import argv
 import os
 
@@ -29,7 +29,7 @@ print("\nYoutube Downloader\n")
 link=str(input("Please Enter a Valid Youtube Video Link or Press CTRL+C to Exit: "))
 
 if link!="":
-    yt = YouTube(link) # we will pass this object into function -> functions.py
+    yt = pytube.YouTube(link) # we will pass this object into function -> functions.py
     print("\nVideo Title: ",getTitle(yt))
     print("\nVideo Author: ",getAuthor(yt))
     print("\nVideo Views: ",getViews(yt))
