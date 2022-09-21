@@ -28,7 +28,7 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
   <br>
   You can download ANY Video on YouTube to your Machine for free, using this little program.
   <br>
-  This Shell script uses a python library to download a youtube video from the given URL
+  This Python script uses a python library to download a youtube video from the given URL
 </details>
 
 <!---------------------------------------- SECTION DIVIDER ---------------------------------------->
@@ -38,6 +38,10 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
       📑 Steps
     </h2>
   </summary>
+  Install the latest version of Python:
+
+  [Python | Download Latest Version](https://www.python.org/downloads/)
+
   Clone this Repo / Download the latest release
 
   ```bash
