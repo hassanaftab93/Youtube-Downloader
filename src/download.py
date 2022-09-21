@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # This script takes a link as an input and outputs the downloaded file into the specified folder
 
 from time import sleep
@@ -26,7 +27,7 @@ if link!="":
     print("\n\nVideo: Downloading...\n\n")
     yd.download(DOWNLOAD_FOLDER)
     sleep(5)
-    
+
     print("\n\nVideo: Downloaded\n\n")
     sleep(5)
 
