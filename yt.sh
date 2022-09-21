@@ -11,8 +11,8 @@ source venv/Scripts/activate
 
 pip install -r requirements.txt
 python -m pip install --upgrade pytube
-python -m pip install git+https://github.com/pytube/pytube
-
+clear
+echo ""
 echo "Please Enter a Valid Youtube Video Link or Press CTRL+C to Exit: "
 echo ""
 read url_input

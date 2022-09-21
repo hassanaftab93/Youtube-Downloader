@@ -19,13 +19,16 @@ if link!="":
     print("\nAuthor: ",yt.author)   # Name of Author
 
     yd = yt.streams.get_highest_resolution() # Download Object set to highest res.
-
+    
     print("\nPath of Download Folder: ",DOWNLOAD_FOLDER)
-    print("\n\nVideo: Downloading...\n\n")
+    sleep(5)
 
+    print("\n\nVideo: Downloading...\n\n")
     yd.download(DOWNLOAD_FOLDER)
     sleep(5)
+    
     print("\n\nVideo: Downloaded\n\n")
+    sleep(5)
 
 elif link=="":
     os.system("sh ../yt.sh")
