@@ -24,7 +24,12 @@ def downloadVideo(ytObject,link,Path):
     print("\n\nVideo: Download Complete\n\n")
     sleep(5)
 
-print("\nYoutube Downloader\n")
+print("""                                                                                                   
+     __ __         _       _          _____ _   _            ____                _           _         
+    |  |  |___ _ _| |_ _ _| |_ ___   |  |  |_|_| |___ ___   |    \ ___ _ _ _ ___| |___ ___ _| |___ ___ 
+    |_   _| . | | |  _| | | . | -_|  |  |  | | . | -_| . |  |  |  | . | | | |   | | . | .'| . | -_|  _|
+      |_| |___|___|_| |___|___|___|   \___/|_|___|___|___|  |____/|___|_____|_|_|_|___|__,|___|___|_|  
+                                                                                                  """)
 
 link=str(input("Please Enter a Valid Youtube Video Link or Press CTRL+C to Exit: "))
 
